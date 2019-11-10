@@ -7,10 +7,12 @@
     <title>Trivia Game - Rock Music</title>
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -19,11 +21,11 @@
           <img
             src="assets/images/rockImageLogo.png"
             class="img-fluid text-center"
-            id="main-logo"
+            id="main_logo"
             alt="rock_logo"
           />
           <h1 class="display-3">Rock n Roll Music Trivia</h1>
-          <hr>
+          <hr />
         </div>
       </div>
       <div class="row">
@@ -35,7 +37,7 @@
             alt="rock_concert_image"
           />
           <div>
-              <h2 id="timer"></h2>
+            <h2 id="timer"></h2>
           </div>
         </div>
         <div class="offset-md-1"></div>
@@ -43,23 +45,22 @@
           <div id="start" class="startText">
             <h2>Get ready to Rock n' Roll!</h2>
             <p>
-                You will be given 10 multiple choice questions. Only one answer is
-                correct. You have 60 seconds to test your rock skills. Rock on!
+              You will be given 10 multiple choice questions. Only one answer is
+              correct. You have 60 seconds to test your rock skills. Rock on!
             </p>
             <div class="btn btn-primary" id="startBtn">
               Start
             </div>
           </div>
-        <div>
-            <div id="questions">
-            </div>
-        </div>
+          <div>
+            <div id="questions"></div>
+          </div>
           <div class="hidden" id="end">
-              <h2>Here are the results:</h2>
-              <p id="correctAnswers"></p>
-              <p id="incorrectAnswers"></p>
-              <p id="unanswered"></p>
-          </div>  
+            <h2>Here are the results:</h2>
+            <p id="correctAnswers"></p>
+            <p id="incorrectAnswers"></p>
+            <p id="unanswered"></p>
+          </div>
         </div>
       </div>
     </div>
