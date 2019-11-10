@@ -23,6 +23,43 @@
             alt="rock_logo"
           />
           <h1 class="display-3">Rock n Roll Music Trivia</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img
+            src="assets/images/rockImage.jpg"
+            class="image-fluid text-center"
+            id="imgMain"
+            alt="rock_concert_image"
+          />
+          <div>
+              <h2 id="timer"></h2>
+          </div>
+        </div>
+        <div class="offset-md-1"></div>
+        <div class="col-md-8">
+          <div id="start" class="startText">
+            <h2>Get ready to Rock n' Roll!</h2>
+            <p>
+                You will be given 10 multiple choice questions. Only one answer is
+                correct. You have 60 seconds to test your rock skills. Rock on!
+            </p>
+            <div class="btn btn-primary" id="startBtn">
+              Start
+            </div>
+          </div>
+        <div>
+            <div id="questions">
+            </div>
+        </div>
+          <div class="hidden" id="end">
+              <h2>Here are the results:</h2>
+              <p id="correctAnswers"></p>
+              <p id="incorrectAnswers"></p>
+              <p id="unanswered"></p>
+          </div>  
         </div>
       </div>
     </div>
