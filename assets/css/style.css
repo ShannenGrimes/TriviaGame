@@ -1,18 +1,25 @@
 body {
-    background-color: maroon !important;
+    background-color: maroon;
 }
 
 #end {
-    display: none !important;
+    display: none
 }
 
 #main_logo {
-    padding-top: 50px !important;
-    padding-bottom: 20px !important;
-    width: 100% \9 !important;
+    padding-top: 50px; 
+    padding-bottom: 20px;
+    width: 100% /\9;
+}
+
+#imgMain {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 h1 {
+    font-family: 'New Rocker', cursive !important;
     margin-bottom: 20px !important;
 }
 
@@ -29,23 +36,16 @@ h1 {
 }
   
 #questions {
-    margin-top: 32px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 100px
 }
 
-#imgMain {
-    vertical-align: middle;
-}
 
-.image-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.display-3 {
+.display-1 {
     font-size: 4.5rem;
     font-weight: 300;
     line-height: 1.2;
 }
 
+.div {
+    font-family: 'New Rocker', cursive;
+}
