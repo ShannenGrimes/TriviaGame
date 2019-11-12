@@ -46,7 +46,7 @@ $(document).ready(function(){
 //   Logic of looping through the questions and appending them
   var trivia = {
       displayQuestions: function() {
-          var divCounter = $("#questions");
+          var divContainer = $("#questions");
           var answerGroup = $(".form-check");
           divContainer.append('<h2>Answer the following questions to test your Rock skills:</h2>');
 
@@ -69,7 +69,7 @@ $(document).ready(function(){
           var correctAnswer;
           var userAnswer;
           var numCorrect = 0;
-          var numbIncorrect = 0;
+          var numIncorrect = 0;
           var numUnanswered = 0;
           for (var i = 0; i < questionTally.length; i++) {
               correctAnswer = questionTally[i].correct;
@@ -87,7 +87,7 @@ $(document).ready(function(){
 
     //   Logic to show the results after the game ends
 
-          game.showEndPage(numCorrect,numbIncorrect,numUnanswered);  
+          game.showEndPage(numCorrect,numIncorrect,numUnanswered);  
 
       },
   }
@@ -96,53 +96,53 @@ $(document).ready(function(){
   var questionTally = 
   [
       {
-          question: " ",
-          answers: [" "],
-          correct: " "
+          question: "Bands Soundgarden, Alice In Chains and Pearl Jam are from what American city?",
+          answers: ["Spokane","Seattle","Portland"],
+          correct: "Seattle"
       },
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Vocalist and guitarist Jimi Hendrix served in which unit military unit?",
+          answers: ["101st Airborne Division", "7th Special Forces Group", "United States Army Band"],
+          correct: "101st Airborne Division"
       },
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Two of these groups are tied for 1st with 3 tours in the in the Top 20 of all time highest grossing tours. Which band only has 2 in the Top 20?",
+          answers: ["Rollings Stones", "U2", "Bruce Springsteen and the E Street Band"],
+          correct: "Bruce Springsteen and the E Street Band"
       },
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "In 2019, which festival changed it's name to Sonic Temple?",
+          answers: ["Louder Than Life, Louisville, KY", "Rock on the Range, Columbus, OH", "Rock USA, Oshkosh, WI"],
+          correct: "Rock on the Range, Columbus, OH"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Of the top 3 albums of all time worldwide in certified sales, which is the highest?",
+          answers: ["Thriller, Michael Jackson", "Eagles: Their Greatest Hits 1971-1975", "Hotel California, Eagles"],
+          correct: "Thriller, Michael Jackson"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Dave Grohl had a designed a throne to play from after breaking his leg when he fell off a stage while performing. Who did he let use his throne for concerts after suffering a foot injury?",
+          answers: ["Axl Rose", "Chester Bennington", "James Hatfield"],
+          correct: "Axl Rose"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Who has not been a lead singer for Black Sabbath?",
+          answers: ["Ozzy Osborne", "Ronnie James Dio", "Tommy Lommi"],
+          correct: "Tommy Lommi"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Paul McCartney traded his what to get his first guitar?",
+          answers: ["Piano", "Trumpet", "violin"],
+          correct: "Trumpet"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "What band's previous names was The Tea Set and The Abdabs?",
+          answers: ["Cream", "The Who", "Pink Floyd"],
+          correct: "Pink Floyd"
       },      
       {
-        question: " ",
-        answers: [" "],
-        correct: " "
+          question: "Guitarists Angus and Malcolm Young of the Australian band AC/DC were born where?",
+          answers: ["New Zealand", "Scotland", "Wales"],
+          correct: "Scotland"
       }
   ]
