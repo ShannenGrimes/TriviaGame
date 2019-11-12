@@ -12,16 +12,15 @@ body {
 }
 
 
-#main_logo {
-    padding-top: 50px; 
-    padding-bottom: 20px;
-    width: 100% /\9;
-}
 
 #imgMain {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+}
+#main_logo {
+    max-width: 10%;
+    height: auto;
 }
 
 h1 {
