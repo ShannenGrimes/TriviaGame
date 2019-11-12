@@ -1,10 +1,16 @@
-body {
-    background-color: maroon;
+html {
+    font-size: 62.5%;
 }
 
-#end {
-    display: none
+span {
+    font-size: 1.6em;
 }
+
+body {
+    background-color: maroon;
+    color: mintcream;
+}
+
 
 #main_logo {
     padding-top: 50px; 
@@ -23,29 +29,36 @@ h1 {
     margin-bottom: 20px !important;
 }
 
-#end p {
-    font-size:20px !important;
+h2 {
+    font-family: 'New Rocker', cursive;
+    font-size: 2rem;
 }
 
 #correctAnswers {
-    margin-top: 32px !important;
+    margin-top: 32px;
+    font-size: 20px;
 }
 
 #timer {
-    margin-top: 20px !important;
+    margin: 20px 0px 8px;
+    font-size: 20px;
 }
   
-#questions {
-    font-size: 100px
-}
-
-
-.display-1 {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
 
 .div {
     font-family: 'New Rocker', cursive;
+}
+
+label {
+    font-size: 16px;
+}
+
+end p {
+    font-size: 20px
+}
+
+#questions {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
 }
